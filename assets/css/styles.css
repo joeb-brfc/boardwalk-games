@@ -5,10 +5,14 @@
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
-    --primary-color: #3a2620; /*dark brown*/
-    --secondary-color: #aa9581; /*light brown*/
-    --highlight-color: #416a8e; /* blue*/
-    --hilight-highlight-color: #7a9fc2; /*dark blue*/
+    --primary-color: #3a2620;
+    /*dark brown*/
+    --secondary-color: #aa9581;
+    /*light brown*/
+    --highlight-color: #416a8e;
+    /* blue*/
+    --hilight-highlight-color: #7a9fc2;
+    /*dark blue*/
 }
 
 /* Global styles */
@@ -22,15 +26,25 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+}
+
+h1 h2 {
     text-transform: uppercase;
 }
+
+h2 {
+    margin-bottom: 2rem;
+}
+
 .sub-heading-color {
     color: var(--highlight-color);
 }
+
 .section {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
 /* Navbar */
 #navbar {
     background-color: var(--primary-color);
@@ -39,10 +53,23 @@ h3 {
 #navbar .logo {
     width: 30px;
 }
+
 /*Header*/
 
 #header .lead {
     font-family: var(--secondary-font);
+}
+
+/* Services */
+
+#services .card-footer {
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+}
+
+#services .card {
+    margin-bottom: 1.5rem;
 }
 /*grid visulisation CSS for testing */
 /*
