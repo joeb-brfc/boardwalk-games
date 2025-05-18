@@ -28,7 +28,7 @@ h3 {
     color: var(--primary-color);
 }
 
-h1 h2 {
+h1, h2 {
     text-transform: uppercase;
 }
 
@@ -70,6 +70,12 @@ h2 {
 
 #services .card {
     margin-bottom: 1.5rem;
+}
+
+/*Games */
+#new-games .card,
+#fav-games .card{
+    border: none;
 }
 /*grid visulisation CSS for testing */
 /*
