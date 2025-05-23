@@ -100,6 +100,11 @@ h2 {
 #fav-games .card {
     border: none;
 }
+/* New events */
+#discount {
+    background-color: var(--highlight-color);
+    color: white;
+}
 
 /*Footer / contact */
 #contact {
