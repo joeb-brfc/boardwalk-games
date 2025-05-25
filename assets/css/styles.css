@@ -19,6 +19,7 @@
 
 body {
     font-family: var(--primary-font);
+    padding-top: 42px; /* Adjusted for fixed navbar height */
 }
 
 h1,
